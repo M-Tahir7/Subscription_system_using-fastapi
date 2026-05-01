@@ -1,4 +1,26 @@
-echo "__pycache__/" >> .gitignore
-echo ".env" >> .gitignore
-echo ".venv/" >> .gitignore
-echo "*.pyc" >> .gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+.python-version
+
+# Database & SQLite
+*.db
+*.sqlite3
+
+# Alembic
+
+alembic/__pycache__/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
